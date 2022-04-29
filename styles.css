@@ -1,0 +1,50 @@
+#navegacion{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+    padding-right: 100px;
+}
+.text-link{
+    color: white;
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.text-link:hover{
+    color: #ced4da;
+}
+.menu{
+    display: flex;
+    place-content: center;
+    justify-content: right;
+}
+ul{
+    list-style: none;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.fa-solid.fa-cart-shopping{
+    color: white;
+}
+.fa-solid.fa-cart-shopping:hover{
+    color: #ced4da;
+}
+.icono{
+    bottom: 10px;
+    right: 450px;
+    position: relative;
+    
+}
+.fa-solid.fa-magnifying-glass{
+    color: white;
+    padding: 0px 0px 0px 15px;
+}
+.fa-solid.fa-magnifying-glass:hover{
+    color: #ced4da;
+}
